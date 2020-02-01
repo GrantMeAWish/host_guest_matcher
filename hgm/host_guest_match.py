@@ -38,9 +38,9 @@ def preprocess_csv(filename, student_type):
 
 	return students
 
-def match():
-	hosts = preprocess_csv('csv_files/hosts_sample.csv', 'hosts')
-	guests = preprocess_csv('csv_files/guests_sample.csv', 'guests')
+def match(host_csv, guest_csv):
+	hosts = preprocess_csv(host_csv, 'hosts')
+	guests = preprocess_csv(guest_csv, 'guests')
 
 	matcher = Matcher(hosts, guests)
 	matcher.match("major")
@@ -52,8 +52,8 @@ def match():
 
 	return matched_hosts, unpaired_guests
 
-def write_matches(matched_hosts):
-	with open('csv_files/match.csv', mode='w') as csv_file:
+def write_matches(matched_hosts, write_csv_name):
+	with open(write_csv_name, mode='w') as csv_file:
 		writer = csv.writer(csv_file)
 
 		writer.writerow(["host name", "host email", "host phone", "host gender", \
@@ -68,8 +68,8 @@ def write_matches(matched_hosts):
 					guest.name, guest.email, guest.phone, guest.gender, \
 					guest.get_feat("major"), guest.get_feat("major_categ")])
 
-def write_unpaired(unpaired_guests):
-	with open('csv_files/unpaired_guests.csv', mode='w') as csv_file:
+def write_unpaired(unpaired_guests, write_csv_name):
+	with open(write_csv_name, mode='w') as csv_file:
 		writer = csv.writer(csv_file)
 
 		writer.writerow(["guest name", "guest email", "guest phone", "guest gender", \
