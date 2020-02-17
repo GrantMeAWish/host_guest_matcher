@@ -16,7 +16,7 @@ class Guest(object):
 
 class Host(object):
 
-	def __init__(self, name, email, phone, gender, major, major_categ, build_type):
+	def __init__(self, name, email, phone, gender, major, major_categ, build_type, roommates):
 		self.name = name
 		self.email = email
 		self.phone = phone
@@ -28,6 +28,7 @@ class Host(object):
 		self.guests = []
 		self.max_guests = max_guests[build_type]
 		self.full = False
+		self.roommates = roommates
 
 	def add_guest(self, guest):
 		self.guests.append(guest)
@@ -45,3 +46,6 @@ class Host(object):
 			guests_string = guest.name + ', '
 
 		print(guests_string)
+
+	def get_roommates(self):
+		return self.roommates

@@ -2,6 +2,7 @@ import csv
 from hgm.student import Guest, Host
 from hgm.matcher import Matcher
 import pdb
+from difflib import SequenceMatcher
 
 def preprocess_csv(filename, student_type):
 	students = []
@@ -22,7 +23,10 @@ def preprocess_csv(filename, student_type):
 					major = row[5]
 					major_categ = row[6]
 					build_type = row[8]
-					host = Host(name, email, phone, gender, major, major_categ, build_type)
+					roommates = []
+					if row[9] == "Yes":
+						roommates = row[10].split(",")
+					host = Host(name, email, phone, gender, major, major_categ, build_type, roommates)
 					students.append(host)
 				else:
 					name = row[0]
@@ -38,9 +42,22 @@ def preprocess_csv(filename, student_type):
 
 	return students
 
+def __similar(a, b):
+    return SequenceMatcher(None, a, b).ratio()
+
+def __check_roommates(hosts):
+	for host in hosts:
+		roommates = host.get_roommates()
+
+		for roommate in roommates:
+			for host in hosts:
+				if __similar(roommate, host.name) > 0.9:
+					host.max_guests -= 1
+
 def match(host_csv, guest_csv):
 	hosts = preprocess_csv(host_csv, 'hosts')
 	guests = preprocess_csv(guest_csv, 'guests')
+	__check_roommates(hosts)
 
 	matcher = Matcher(hosts, guests)
 	matcher.match("major")
