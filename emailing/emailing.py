@@ -3,7 +3,7 @@
 import yagmail
 import csv
 
-filename = "2-21-match.csv" #TODO
+filename = "match.csv" #TODO
 
 yag = yagmail.SMTP("berkeleyrohp@gmail.com")
 
@@ -17,7 +17,7 @@ date = input("Please enter the number of which ROHP night you are matching for:\
 4: March 14\n \
 5: April 17\n")
 
-subject = "ROHP " + dates[int(date)] + " Host Guest Matching"
+subject = "ROHP " + dates[int(date)] + " Host Guest Matching [FINAL - CORRECTED]"
 
 with open(filename, "r") as csvfile:
 
@@ -29,13 +29,13 @@ with open(filename, "r") as csvfile:
 		guest = {}
 		host = {}
 
-		guest["name"] = row[0]
-		guest["email"] = row[1]
-		guest["phone"] = row[2]
+		guest["name"] = row[7]
+		guest["email"] = row[8]
+		guest["phone"] = row[9]
 
-		host["name"] = row[7]
-		host["email"] = row[8]
-		host["phone"] = row[9]
+		host["name"] = row[0]
+		host["email"] = row[1]
+		host["phone"] = row[2]
 
 
 		receiver = {guest["email"]: guest["name"], host["email"]: host["name"]}
@@ -43,6 +43,7 @@ with open(filename, "r") as csvfile:
 
 		body = \
 		"Hello, \n\n \
+		We sincerely apologize for the issues with host-guest matching; this was due to a problem with our database that has now been fixed. This will be your final match confirmation, so please disregard both earlier emails. If you have any questions regarding your match or find any issues with your information below, please contact us directly. We appreciate your understanding and we look forward to seeing you at ROHP this Friday. \n \
 		You two have been matched as host and guest for ROHP on " + dates[int(date)] + ". Below, you can find each other’s contact information. \n \
 		\n\n \
 		" + guest["name"] + ", " + guest["email"] + ", " + guest["phone"] + "\n" \

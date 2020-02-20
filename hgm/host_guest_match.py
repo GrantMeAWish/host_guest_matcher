@@ -29,12 +29,12 @@ def preprocess_csv(filename, student_type):
 					host = Host(name, email, phone, gender, major, major_categ, build_type, roommates)
 					students.append(host)
 				else:
-					name = row[0]
-					email = row[1]
-					phone = row[2]
-					gender = row[3]
-					major = row[4]
-					major_categ = row[5]
+					name = row[1]
+					email = row[2]
+					phone = row[3]
+					gender = row[4]
+					major = row[7]
+					major_categ = row[8]
 					guest = Guest(name, email, phone, gender, major, major_categ)
 					students.append(guest)
 
@@ -64,6 +64,8 @@ def match(host_csv, guest_csv):
 	matcher.match("major_categ")
 	matcher.match("random")
 	print("unpaired hosts", [host.name + " " + host.gender for host in matcher.get_hosts() if len(host.guests) == 0])
+	print("unpaired_guests", [guest.name for guest in matcher.get_unpaired()])
+
 
 	matched_hosts = matcher.get_hosts()
 	unpaired_guests = matcher.get_unpaired()

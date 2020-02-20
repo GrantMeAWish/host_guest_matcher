@@ -1,4 +1,4 @@
-max_guests = {'Apartment': 3, 'Suite': 3, 'Dorm': 2}
+max_guests = {'Apartment': 3, 'Suite': 3, 'Dorm': 2} #should be 4 for apt
 
 class Guest(object):
 
