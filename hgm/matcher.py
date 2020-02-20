@@ -14,7 +14,6 @@ class Matcher(object):
 		return self.unpaired
 
 	def match(self, feat):
-		
 		for guest in self.unpaired:
 			potential_hosts = []
 
@@ -22,9 +21,17 @@ class Matcher(object):
 				if host.gender != guest.gender or host.full:
 					continue
 
-				if feat == 'random' or host.get_feat(feat) == guest.get_feat(feat):
+				if (feat == 'random') or host.get_feat(feat) == guest.get_feat(feat):
 					potential_hosts.append(host)
-
+			if len(potential_hosts) == 0:
+				for host in self.hosts:
+					if host.gender != guest.gender or host.full:
+						continue
+					if (feat == "major" and	"EECS" in guest.get_feat(feat)):
+						guest.major = "Electrical Engineering and Computer Science"
+						
+					if (feat == 'random') or (host.get_feat( feat) in guest.get_feat(feat)) or (guest.get_feat(feat) in host.get_feat(feat)): #handles dual majors
+						potential_hosts.append(host)
 			if len(potential_hosts) > 0:
 				host = min(potential_hosts, key=lambda curr_host: len(curr_host.guests))
 				host.add_guest(guest)
@@ -33,7 +40,6 @@ class Matcher(object):
 					host.full = True
 
 				self.paired.append(guest)
-
 			
 		for guest in self.paired:
 			if guest in self.unpaired:

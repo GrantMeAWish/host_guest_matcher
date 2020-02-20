@@ -1,59 +1,63 @@
 host name,host email,host phone,host gender,host major,host major category,host max room capacity,guest name,guest email,guest phone,guest gender,guest major,guest major category
-Allison Bao,allison.bao@berkeley.edu,8589978983,Female,Business Administration,Social Sciences,2,Jessica Wang,wang2001jessica@gmail.com,5102849938,Female,Business Administration,Social Sciences
-Allison Bao,allison.bao@berkeley.edu,8589978983,Female,Business Administration,Social Sciences,2,Karen Liu,karen.liu2213@gmail.com,9093581162,Female,Cognitive Science,Social Sciences
-Kaitlan Tseng,kaitlantseng@berkeley.edu,4242121140,Female,Business Administration,Social Sciences,4,Erica Hong,ericahong1005@gmail.com,4044320477,Female,Business Administration,Arts and Humanities
-Kaitlan Tseng,kaitlantseng@berkeley.edu,4242121140,Female,Business Administration,Social Sciences,4,Amisha Wadhwa,wadhwa.amisha@gmail.com,4089210517,Female,Political Science,Social Sciences
-Swetha Prabakaran,Swethapraba@berkeley.edu,7038708649,Female,Computer Science,Engineering,4,Simmone Stearn,Simmone.stearn@gmail.com,7604026968,Female,Civil & Environmental Engineering,Engineering
-Swetha Prabakaran,Swethapraba@berkeley.edu,7038708649,Female,Computer Science,Engineering,4,Ruhika Lankalapalli,Ruhika@gmail.com,4074969946,Female,Bioengineering,Engineering
-Sara Siddiqui,sarasiddiqui@berkeley.edu,9517516683,Female,Computer Science,Engineering,3,Aleysha Chen,aleyshachen@gmail.com,9095698467,Female,Bioengineering,Engineering
-Katherine Liu,katherineliu28@berkeley.edu,3108445450,Female,Computer Science,Engineering,4,Sithmi Jayasundara,sithmij@gmail.com,5307613577,Female,Bioengineering,Engineering
-Sophie Blanc,sophie2220@berkeley.edu,4086210052,Female,Computer Science,Mathematics and Physical Sciences,3,Pranati Modumudi,pranati@gmail.com,4084648674,Female,Astronomy,Mathematics and Physical Sciences
-Carolyn Schwendeman,cschwendeman@berkeley.edu,5306151056,Female,Electrical Engineering & Computer Sciences,Engineering,2,Shrea Chari,shreachari@gmail.com,8587484594,Female,Electrical Engineering & Computer Sciences,Engineering
-Shefali Bhatia,shefalibhatia@berkeley.edu,5105666205,Female,Electrical Engineering & Computer Sciences,Engineering,4,Natasha Ravinand,natasharavinand@gmail.com,9255511995,Female,Electrical Engineering & Computer Sciences,Engineering
-Ivy Li,ivy.li@gmail.com,7705962643,Female,Electrical Engineering & Computer Sciences,Engineering,3,Shrea Chari,shreachari@gmail.com,8587352965,Female,Electrical Engineering & Computer Sciences,Engineering
-Caroline Liu,carolinexwliu89@berkeley.edu,6263197908,Female,Electrical Engineering & Computer Sciences,Engineering,2,Shirley Bi,shirley.bi@yahoo.com,9254069991,Female,Bioengineering,Engineering
-Amy Zhang,amyl.z@berkeley.edu,4086886551,Female,Environmental Sciences,Biological Sciences,4,Tasfia Rashid,tasfiaxnawal@gmail.com,9514632741,Female,Integrative Biology,Biological Sciences
-Amy Zhang,amyl.z@berkeley.edu,4086886551,Female,Environmental Sciences,Biological Sciences,4,Jasmine Cevallos,jasnicolecevallos@gmail.com,7739123060,Female,Cognitive Science,Biological Sciences
-Andrea Uribe,andreauribe@berkeley.edu,6614409905,Female,Environmental Sciences,Biological Sciences,4,Jiseon Choi,jiseonchoi17@gmail.com,8189848111,Female,Molecular Environmental Biology,Biological Sciences
-Andrea Uribe,andreauribe@berkeley.edu,6614409905,Female,Environmental Sciences,Biological Sciences,4,Arely Campos,arely12cm@gmail.com,8315353716,Female,Integrative Biology,Biological Sciences
-Juliette Franzman,juliettef@berkeley.edu,8188577136,Female,Mathematics,Mathematics and Physical Sciences,4,Varya Fayner,gavrusha2001@yahoo.com,3232068577,Female,Mathematics,Mathematics and Physical Sciences
-Dalila Barba,dalilabarba@berkeley.edu,5104853979,Female,Mechanical Engineering,Engineering,3,Trevor Amarante,trej1024@comcast.net,5597976912,Female,Mechanical Engineering,Engineering
-Ya Chi Liang,angelinaliang@berkeley.edu,6266890386,Female,Molecular and Cell Biology,Biological Sciences,2,Sherry Fan,sherrysnowf@gmail.com,5103713469,Female,Molecular and Cell Biology,Biological Sciences
-Sophie Blanc,sophieblanc@berkeley.edu,8057033467,Female,Molecular and Cell Biology,Biological Sciences,4,Grace Liu,graceliu325@gmail.com,4373514682,Female,Molecular and Cell Biology,Biological Sciences
-Miriam Aguilar,kiara_veliz@berkeley.edu,2096281538,Female,Molecular and Cell Biology,Biological Sciences,2,Claire Lin,claire.lin.825@gmail.com,4156974846,Female,Molecular and Cell Biology,Biological Sciences
-Amarpreet Kaur,amarpreetkaur@berkeley.edu,5106049629,Female,Sociology,Social Sciences,4,Michelle Huang,michelle.h1401@gmail.com,4087241979,Female,Economics,Social Sciences
-Amarpreet Kaur,amarpreetkaur@berkeley.edu,5106049629,Female,Sociology,Social Sciences,4,Javaria Khan ,khanjavaria_@outlook.com,5107782870,Female,Political Science,Social Sciences
-Hayden Koerner,haydenk@berkeley.edu,9493240447,Female,Computer Science,Mathematics and Physical Sciences,3,Maryam Karimi ,maryam2001k@gmail.com,9254169868,Female,Political Science,Arts and Humanities
-Emily Shaw,ekshaw@berkeley.edu,2532238038,Female,Undeclared Engineering,Engineering,2,Reva Agashe,revaagashe@gmail.com,8582529315,Female,Bioengineering,Engineering
-Bill Cao,bill.cao@berkeley.edu,4153287568,Male,Business Administration,Social Sciences,4,Ryan Liu,rlxx0188@gmail.com,9259798296,Male,Microbial Biology,Social Sciences
-Bill Cao,bill.cao@berkeley.edu,4153287568,Male,Business Administration,Social Sciences,4,Zeyu Ma,alvin91124894@gmail.com,9514225906,Male,Astronomy,Mathematics and Physical Sciences
-Leon Ming,leon.ming@berkeley.edu,5105987490,Male,Computer Science,Engineering,4,Patrick Yin,patarhaoy@gmail.com,6502387867,Male,Computer Science,Mathematics and Physical Sciences
-Leon Ming,leon.ming@berkeley.edu,5105987490,Male,Computer Science,Engineering,4,William Panitch,2019panitchwilliam@aaps.k12.mi.us,7342778167,Male,Computer Science,Engineering
-Leon Ming,leon.ming@berkeley.edu,5105987490,Male,Computer Science,Engineering,4,Justin Delgado,justinsdelgado1@gmail.com,8084363028,Male,Bioengineering,Engineering
-Leon Ming,leon.ming@berkeley.edu,5105987490,Male,Computer Science,Engineering,4,Aakash Mishra,aakamishra1@gmail.com,5306018868,Male,Mechanical Engineering,Engineering
-Madhav Nekkar,mrnekkar@berkeley.edu,4083708235,Male,Economics,Biological Sciences,4,Michael Zhu,michaelzhu3@gmail.com,7146813557,Male,Public Health,Biological Sciences
-Madhav Nekkar,mrnekkar@berkeley.edu,4083708235,Male,Economics,Biological Sciences,4,Jason Hong,ja4hong@gmail.com,9162307147,Male,Molecular and Cell Biology,Biological Sciences
-Madhav Nekkar,mrnekkar@berkeley.edu,4083708235,Male,Economics,Biological Sciences,4,Michael Karish,michael.karish@yahoo.com,6269930118,Male,Molecular and Cell Biology,Biological Sciences
-Kevin Wu,kwu12@berkeley.edu,5106769942,Male,Economics,Social Sciences,3,Evan Morgan,evan.w.morgan@gmail.com,8588427359,Male,Chemistry,Mathematics and Physical Sciences
-Kevin Wu,kwu12@berkeley.edu,5106769942,Male,Economics,Social Sciences,3,Michael Wang,michaelyw11@gmail.com,4087724312,Male,Statistics,Mathematics and Physical Sciences
-Parth Nobel,parthnobel@berkeley.edu,8584366261,Male,Electrical Engineering & Computer Sciences,Engineering,4,Pranav Pomalapally,pomala.pranav17@gmail.com,8054050152,Male,Electrical Engineering & Computer Sciences,Engineering
-Parth Nobel,parthnobel@berkeley.edu,8584366261,Male,Electrical Engineering & Computer Sciences,Engineering,4,Omar Ramos,oaramos@berkeley.edu,6614489745,Male,Electrical Engineering & Computer Sciences,Engineering
-Parth Nobel,parthnobel@berkeley.edu,8584366261,Male,Electrical Engineering & Computer Sciences,Engineering,4,Pranav Kalyan,pranavkalyan@gmail.com,8186255422,Male,Nuclear Engineering,Engineering
-Parth Nobel,parthnobel@berkeley.edu,8584366261,Male,Electrical Engineering & Computer Sciences,Engineering,4,Kyle Newman,knewman579@milkenschool.org,12133921951,Male,Bioengineering,Engineering
-Ben Hobermanb,bhoberman@berkeley.edu,4089312912,Male,Electrical Engineering & Computer Sciences,Engineering,3,Edan Bash,edanbash2001@gmail.com,3238063872,Male,Electrical Engineering & Computer Sciences,Engineering
-Ben Hobermanb,bhoberman@berkeley.edu,4089312912,Male,Electrical Engineering & Computer Sciences,Engineering,3,Tasman Kuang,tasmankuang@gmail.com,6504552058,Male,Electrical Engineering & Computer Sciences,Engineering
-Ben Hobermanb,bhoberman@berkeley.edu,4089312912,Male,Electrical Engineering & Computer Sciences,Engineering,3,Daniel Ornelas,danielornelas40@yahoo.com,5593607791,Male,Civil & Environmental Engineering,Engineering
-Ryan Lehmkuhl,ryanleh@berkeley.edu,6198909031,Male,Electrical Engineering & Computer Sciences,Engineering,4,Paul Grosen,pcgrosen@gmail.com,8056207472,Male,Electrical Engineering & Computer Sciences,Engineering
-Ryan Lehmkuhl,ryanleh@berkeley.edu,6198909031,Male,Electrical Engineering & Computer Sciences,Engineering,4,Bryan Qiu,bbqiu8@gmail.com,6302101019,Male,Electrical Engineering & Computer Sciences,Engineering
-Ryan Lehmkuhl,ryanleh@berkeley.edu,6198909031,Male,Electrical Engineering & Computer Sciences,Engineering,4,Owen Zuidema,owen.zuidema@nvusd.org,7073073860,Male,Civil & Environmental Engineering,Engineering
-Ryan Lehmkuhl,ryanleh@berkeley.edu,6198909031,Male,Electrical Engineering & Computer Sciences,Engineering,4,Sean Lin,seanlin092000@yahoo.com,9095387519,Male,CE + Business,Engineering
-Matthew Tran,matthewlamtran@berkeley.edu,6262977932,Male,Electrical Engineering & Computer Sciences,Engineering,2,Pranav Pomalapally,pomala.pranav17@gmail.com,8054050152,Male,Electrical Engineering & Computer Sciences,Engineering
-Matthew Tran,matthewlamtran@berkeley.edu,6262977932,Male,Electrical Engineering & Computer Sciences,Engineering,2,Ayush Alag,19AyushA@students.harker.org,4087841928,Male,Electrical Engineering & Computer Sciences,Engineering
-Lucas Huang,lucasoh@berkeley.edu,8589008862,Male,Electrical Engineering & Computer Sciences,Engineering,2,Hector Gonzalez,HectorGR131@gmail.com,9168894413,Male,Electrical Engineering & Computer Sciences,Engineering
-Lucas Huang,lucasoh@berkeley.edu,8589008862,Male,Electrical Engineering & Computer Sciences,Engineering,2,Aniruddh Khanwale,aniruddh.khanwale@gmail.com,8582543642,Male,Materials Science & Engineering,Engineering
-Anmol Seth,anmolseth00@berkeley.edu,8582078619,Male,Molecular and Cell Biology,Biological Sciences,2,Justin Im,justinimguaneri@gmail.com,9496271451,Male,Molecular and Cell Biology,Biological Sciences
-Anmol Seth,anmolseth00@berkeley.edu,8582078619,Male,Molecular and Cell Biology,Biological Sciences,2,Ryan Chen,c19rc@dalton.org,9177166501,Male,Molecular and Cell Biology,Biological Sciences
-Ernesto Casillas,Elguero@berkeley.edu,6616334444,Male,Philosophy,Arts and Humanities,2,Giovani Cruz,geoyoba8@gmail.com,3239448196,Male,Art Practice,Arts and Humanities
-Xuyang Yu,xuyangy1505@berkeley.edu,7145104107,Male,Physics,Mathematics and Physical Sciences,3,Rohith Sajith,rohith2sajith@gmail.com,9254169817,Male,Astronomy,Mathematics and Physical Sciences
-Xuyang Yu,xuyangy1505@berkeley.edu,7145104107,Male,Physics,Mathematics and Physical Sciences,3,Mark Maffeo,mlmaffeo19@yahoo.com,5593214358,Male,Mathematics,Mathematics and Physical Sciences
-Xuyang Yu,xuyangy1505@berkeley.edu,7145104107,Male,Physics,Mathematics and Physical Sciences,3,Orrin Jiang,orrinjiang16@gmail.com,8587366138,Male,Mathematics,Mathematics and Physical Sciences
+Amanda Lee,amandajl@berkeley.edu,(818)357-0476,Female,Political Economy,Social Sciences,3,Megan Darzynkiewicz,megdarzy@gmail.com,5304146195,Female,Political Science,Social Sciences
+Amanda Lee,amandajl@berkeley.edu,(818)357-0476,Female,Political Economy,Social Sciences,3,Elaine Shi,elaine.calavera@gmail.com,6026534015,Female,Psychology,Social Sciences
+Amanda Lee,amandajl@berkeley.edu,(818)357-0476,Female,Political Economy,Social Sciences,3,Diya Chakraborti,chakdiya@gmail.com,4403646601,Female,Cognitive Science,Social Sciences
+Christian Vasquez Leon,cvleon@berkeley.edu,(323-944-4197),Male,Data Science,Engineering,3,Srinivas Balagopal,20sbalagopal@pinewood.edu,5106730624,Male,Chemical Engineering,Engineering
+Sophie Blanc,sophieblanc@berkeley.edu,805-703-3467,Female,Immunology and Pathogenesis,Biological Sciences,3,Shirleen Fang,shirleenf7@gmail.com,6506784895,Female,Molecular and Cell Biology,Biological Sciences
+Sophie Blanc,sophieblanc@berkeley.edu,805-703-3467,Female,Immunology and Pathogenesis,Biological Sciences,3,Anita Taft,anita.taft24@gmail.com,4086309157,Female,Molecular and Cell Biology,Biological Sciences
+Sophie Blanc,sophieblanc@berkeley.edu,805-703-3467,Female,Immunology and Pathogenesis,Biological Sciences,3,Sraavya Sambara,srsambara@gmail.com,9255490356,Female,Molecular and Cell Biology,Biological Sciences
+Melody Chen,melodyfchen@berkeley.edu,510-755-6482,Female,Data Science,Mathematics and Physical Sciences,2,Nithya Ramasubramonian,nithya_rams@yahoo.com,9254344271,Female,Mathematics,Mathematics and Physical Sciences
+Melody Chen,melodyfchen@berkeley.edu,510-755-6482,Female,Data Science,Mathematics and Physical Sciences,2,Leila DeSchepper,deschepperleila@gmail.com,15108473024,Female,Mathematics,Mathematics and Physical Sciences
+Abby Steinmetz,abbyps@berkeley.edu,949-491-2009,Female,Biology + Business Program,Biological Sciences,2,Sanjana Kotha,sanjanakotha7@gmail.com,5105798512,Female,Molecular and Cell Biology,Biological Sciences
+Abby Steinmetz,abbyps@berkeley.edu,949-491-2009,Female,Biology + Business Program,Biological Sciences,2,Shannon Zheng,shannon.zheng01@gmail.com,2405158737,Female,Molecular and Cell Biology,Biological Sciences
+Matthew Broadley,mbroadley@berkeley.edu,480-363-2099,Male,Interdisciplinary Studies,Social Sciences,2,Alan Ou,oualan2020@serrahs.com,6507533953,Male,Economics,Social Sciences
+Matthew Broadley,mbroadley@berkeley.edu,480-363-2099,Male,Interdisciplinary Studies,Social Sciences,2,Rogelio Chavez,roger53124popo@gmail.com,5593001444,Male,Environmental Economics and Policy,Social Sciences
+Alejandro González,agonzalez1@berkeley.edu,209 817 3450,Male,Public Health,Biological Sciences,3,Shukri Suhir,shukri.suhir@gmail.com,9167043324,Male,Molecular and Cell Biology,Biological Sciences
+Mandeep Ladhar,mandeepladhar@berkeley.edu,5104587065,Female,Public Health,Biological Sciences,3,Regina Garcia,reginagarciax@gmail.com,9163426571,Female,Public Health,Biological Sciences
+Mandeep Ladhar,mandeepladhar@berkeley.edu,5104587065,Female,Public Health,Biological Sciences,3,Angela Xuan,angelaxuan1@gmail.com,4088893774,Female,Chemistry,Biological Sciences
+Mandeep Ladhar,mandeepladhar@berkeley.edu,5104587065,Female,Public Health,Biological Sciences,3,Juliana Gerard,julianagerard17@gmail.com,9255193618,Female,Cognitive Science,Biological Sciences
+Mark Maffeo,mlmaffeo@berkeley.edu,559-321-4358,Male,Applied Mathemetics,Mathematics and Physical Sciences,2,Armando Abarca,armaniabarca001@gmail.com,2097043529,Male,Business Administration,Mathematics and Physical Sciences
+Caroline Liu,carolinexwliu89@berkeley.edu,626-319-7908,Female,Electrical Engineering and Computer Science,Engineering,3,Madeeha Khan,madeehakhan2001@gmail.com,5107794865,Female,Computer Science,Mathematics and Physical Sciences
+Caroline Liu,carolinexwliu89@berkeley.edu,626-319-7908,Female,Electrical Engineering and Computer Science,Engineering,3,Lara Nabavi,hannah.nabavi@sonomaacademy.org,7073641537,Female,Philosophy,Arts and Humanities
+Caroline Liu,carolinexwliu89@berkeley.edu,626-319-7908,Female,Electrical Engineering and Computer Science,Engineering,3,Anjani Pangal,anjani.pangal@gmail.com,9259983504,Female,Molecular and Cell Biology,Biological Sciences
+Edan Bash,edanbash@berkeley.edu,323-806-3872,Male,Electrical Engineering and Computer Science,Engineering,2,Andrew Luo,aluo8170@gmail.com,6262658170,Male,Computer Science,Engineering
+Luis Jazo,luisjazo@berkeley.edu,805-540-0613,Male,Molecular Environmental Biology,Biological Sciences,3,Tony Chang,2001tony.chang@gmail.com,9092915683,Male,Microbial Biology,Biological Sciences
+Luis Jazo,luisjazo@berkeley.edu,805-540-0613,Male,Molecular Environmental Biology,Biological Sciences,3,Max Moreno,maxgabrielmoreno@gmail.com,4156890487,Male,Political Science,Social Sciences
+Jerry Zhang,jerrywzhang@berkeley.edu,408-643-5319,Male,Computer Science,Engineering,2,Avikam Chauhan,avikamchauhan@icloud.com,5105650811,Male,Computer Science,Engineering
+Jerry Zhang,jerrywzhang@berkeley.edu,408-643-5319,Male,Computer Science,Engineering,2,Omar Wahby,owahby2012@gmail.com,9168955472,Male,Electrical Engineering & Computer Sciences,Engineering
+Christopher Yun,christopheryun72@berkeley.edu,949-547-4946,Male,Computer Science,Engineering,3,Philip Ha,philipha620@gmail.com,4084065390,Male,Computer Science,Engineering
+Christopher Yun,christopheryun72@berkeley.edu,949-547-4946,Male,Computer Science,Engineering,3,Adam Rashid,adamr123122@gmail.com,8316006572,Male,Electrical Engineering & Computer Sciences,Engineering
+Christopher Yun,christopheryun72@berkeley.edu,949-547-4946,Male,Computer Science,Engineering,3,Maanuj Vora,maanujvora@gmail.com,5103296955,Male,Computer Science,Engineering
+Anik Gupta,anik.gupta@berkeley.edu,408-799-1248,Male,Computer Science,Engineering,2,Yarden Goraly,ygoralyj0929@gmail.com,6508043207,Male,Computer Science,Mathematics and Physical Sciences
+Anik Gupta,anik.gupta@berkeley.edu,408-799-1248,Male,Computer Science,Engineering,2,Archit Raichura,archit.raichura@gmail.com,5108960949,Male,Computer Science,Engineering
+Michael DaRodda,mdarodda@berkeley.edu,925-407-6811,Male,Integrative Biology,Biological Sciences,3,Arnav Singhvi,arnav11.singhvi@gmail.com,5102988877,Male,Economics,Social Sciences
+Amala Akkiraju,akkiraju@berkeley.edu,510-358-0244,Female,Chemical Engineering,Engineering,3,Sasha Ronaghi,sasharonaghi@gmail.com,7143504647,Female,Materials Science & Engineering,Engineering
+Amala Akkiraju,akkiraju@berkeley.edu,510-358-0244,Female,Chemical Engineering,Engineering,3,Michelle Foley,michelle888.foley@gmail.com,8315821242,Female,English,Arts and Humanities
+Amala Akkiraju,akkiraju@berkeley.edu,510-358-0244,Female,Chemical Engineering,Engineering,3,Marisa Balades,marisabalades11@gmail.com,7073727315,Female,Business Administration,Social Sciences
+Melany Flores,fhmelany@berkeley.edu,5109212819,Female,Mechanical Engineering,Engineering,1,Yuqi Geng,yuqi.geng2020@gmail.com,8312758319,Female,Civil & Environmental Engineering,Engineering
+Angelica Gonzalez,angelica.gnlz@berkeley.edu,5624792839,Female,Molecular Environmental Biology,Biological Sciences,1,Mia Di Genova,miacat1329@gmail.com,5302192994,Female,Molecular Environmental Biology,Biological Sciences
+Amanda Tanaka ,attanaka28@berkeley.edu,858-822-8724,Female,Public Health,Biological Sciences,2,Rachel An,rachelan2001@gmail.com,4085047580,Female,Molecular and Cell Biology,Biological Sciences
+Amanda Tanaka ,attanaka28@berkeley.edu,858-822-8724,Female,Public Health,Biological Sciences,2,Mei Lao,meichannlao@gmail.com,5622777938,Female,Cognitive Science,Biological Sciences
+Nikhil Gupta,nikhil5cents@berkeley.edu,916-956-9349,Male,Mechanical Engineering,Engineering,3,Seokboem Jang,timjang3@gmail.com,9498360632,Male,Mechanical Engineering,Engineering
+Ankita Mitra,ankitamitra@berkeley.edu,669-226-9279,Female,Computer Science,Engineering,3,Nicole Stiles,nicolestilesswim@gmail.com,9256990803,Female,Electrical Engineering & Computer Sciences,Engineering
+Ankita Mitra,ankitamitra@berkeley.edu,669-226-9279,Female,Computer Science,Engineering,3,Sidney Hough,sidney.hough@gmail.com,4088900758,Female,Electrical Engineering & Computer Sciences,Engineering
+Ankita Mitra,ankitamitra@berkeley.edu,669-226-9279,Female,Computer Science,Engineering,3,Anusha Kansal,anushakansal1@gmail.com,6692349474,Female,Computer Science,Mathematics and Physical Sciences
+Kaitlan Tseng,kaitlantseng@berkeley.edu,424-212-1140,Female,Business Administration,Social Sciences,3,Anoushka Ambavanekar,anoushki@gmail.com,9168711773,Female,Business Administration,Social Sciences
+Kaitlan Tseng,kaitlantseng@berkeley.edu,424-212-1140,Female,Business Administration,Social Sciences,3,Jessica Zhu,jesszhu0418@gmail.com,4087864817,Female,Business Administration,Social Sciences
+Kaitlan Tseng,kaitlantseng@berkeley.edu,424-212-1140,Female,Business Administration,Social Sciences,3,Amy Lee,amyhlee79@gmail.com,9492756202,Female,Business Administration,Social Sciences
+Erik Francis,erikwfrancis@berkeley.edu,8582673285,Male,Mechanical Engineering,Engineering,3,Anuj Raichura,anuj1.raichura@gmail.com,5108574751,Male,Bioengineering,Engineering
+Aniruddh Khanwale,akhanwale@berkeley.edu,8582543642,Male,Materials Science and Engineering,Engineering,2,Ruchir Baronia,ruchirbaronia@gmail.com,4086803717,Male,EECS + Business,Engineering
+John John Huddleston,johnjohn12@berkeley.edu,8189795103,Male,Mechanical Engineering,Engineering,3,Avinash Rao,avinashrao2002@gmail.com,9256396885,Male,Materials Science & Engineering,Engineering
+Jenny Conde,jconde@berkeley.edu,949-701-9461,Female,Energy Engineering,Engineering,3,Janani Balaji,jananibalaji16@gmail.com,9259151409,Female,Bioengineering,Engineering
+Jenny Conde,jconde@berkeley.edu,949-701-9461,Female,Energy Engineering,Engineering,3,Jalie Edgemon,jalieedgemon.357@gmail.com,4083555392,Female,Molecular and Cell Biology,Biological Sciences
+Owen Zuidema,owen.zuidema@berkeley.edu,707-307-3860,Male,Environmental Engineering Science,Engineering,2,Jake Bringetto,jakebringetto@gmail.com,5593510888,Male,Electrical Engineering & Computer Sciences,Engineering
+Bryan Qiu,bbqiu@berkeley.edu,6302101019,Male,Electrical Engineering and Computer Science,Engineering,2,Rohit Ravi,rohitravi2001@gmail.com,5103999366,Male,Computer Science,Engineering
+Sarah Truong,struong19@berkeley.edu,714-391-1551,Female,Astrophysics/Astronomy,Mathematics and Physical Sciences,3,Tingyuan Xue,sophiexue0527@gmail.com,6268981983,Female,Physics,Mathematics and Physical Sciences
+Sarah Truong,struong19@berkeley.edu,714-391-1551,Female,Astrophysics/Astronomy,Mathematics and Physical Sciences,3,Eefay Wang,eefaywang@hotmail.com,4083400261,Female,Integrative Biology,Biological Sciences
+Swetha Prabakaran,swethapraba@berkeley.edu,703-870-8649,Female,Computer Science,Engineering,3,Audrey Im,audreyim3007@gmail.com,9256670451,Female,Computer Science,Engineering
+Swetha Prabakaran,swethapraba@berkeley.edu,703-870-8649,Female,Computer Science,Engineering,3,Rucha Acholkar,ruchaacholkar3@gmail.com,5108619420,Female,Electrical Engineering & Computer Sciences,Engineering
+Swetha Prabakaran,swethapraba@berkeley.edu,703-870-8649,Female,Computer Science,Engineering,3,Emily Lai,emilylai2020@gmail.com,4152388917,Female,Computer Science,Mathematics and Physical Sciences
+Katherine Xie,kxie13@berkeley.edu,973-954-8216,Female,Economics,Social Sciences,2,Kaushikee Nayudu,kaushikeenayudu@gmail.com,6507587444,Female,Economics,Social Sciences
+Katherine Xie,kxie13@berkeley.edu,973-954-8216,Female,Economics,Social Sciences,2,Shannon Paulson,sfpaulson38@gmail.com,2099185290,Female,Environmental Economics and Policy,Biological Sciences
+Dahlia Saba,dahliasaba@berkeley.edu,5102196377,Female,Electrical Engineering and Computer Science,Engineering,2,Stefanie Iojica,artist.stefania@gmail.com,6507624560,Female,Philosophy,Arts and Humanities
+Dahlia Saba,dahliasaba@berkeley.edu,5102196377,Female,Electrical Engineering and Computer Science,Engineering,2,Hanna Zarrinnegar,hanzarr@nuevaschool.org,6506198403,Female,Near Eastern Studies,Arts and Humanities

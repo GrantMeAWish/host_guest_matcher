@@ -16,16 +16,16 @@ def preprocess_csv(filename, student_type):
 				line_count += 1
 			else:
 				if student_type == 'hosts':
-					name = row[0]
+					name = row[3]
 					email = row[1]
-					phone = row[2]
-					gender = row[3]
-					major = row[5]
-					major_categ = row[6]
-					build_type = row[8]
+					phone = row[5]
+					gender = row[4]
+					major = row[9]
+					major_categ = row[10]
+					build_type = row[12]
 					roommates = []
-					if row[9] == "Yes":
-						roommates = row[10].split(",")
+					if row[13] == "Yes":
+						roommates = row[14].split(",")
 					host = Host(name, email, phone, gender, major, major_categ, build_type, roommates)
 					students.append(host)
 				else:
@@ -63,6 +63,7 @@ def match(host_csv, guest_csv):
 	matcher.match("major")
 	matcher.match("major_categ")
 	matcher.match("random")
+	print("unpaired hosts", [host.name + " " + host.gender for host in matcher.get_hosts() if len(host.guests) == 0])
 
 	matched_hosts = matcher.get_hosts()
 	unpaired_guests = matcher.get_unpaired()
