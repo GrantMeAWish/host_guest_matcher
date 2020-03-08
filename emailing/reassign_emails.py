@@ -57,7 +57,7 @@ with open(filename, "r") as csvfile:
 
 		body = "Hello, \n\n\
 		Due to some logistical hiccups, you've been reassigned to a new host. "+ guest["name"] +", please ignore your previous assignment if you received one. Below, you can find each other’s contact information. \n \n \
-		Previous assignment that is no longer valid: \n" + guest["name"] + ", " + guest["email"] + ", " + guest["phone"] + "\n" \
+		Previous assignment that is no longer valid: \n" + guest["name"] + ", " + guest["email"] + ", " + guest["phone"] + "\n \n" \
 		+ old_host["name"] + ", " + old_host["email"] + ", " + old_host["phone"] + "\n" \
 		+ "\n" + old_host["name"]+ ", this reassignment does not affect your other assignment. \n\n \
 		NEW assignment: \n \
