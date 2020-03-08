@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import yagmail
 import csv
 
@@ -5,15 +6,15 @@ filename = "reassign.csv"
 
 yag = yagmail.SMTP("berkeleyrohp@gmail.com")
 
-dates = ["February 22", "March 8", "March 9", "March 15", "March 16", "April 12"]
+dates = ["February 21", "March 6", "March 7", "March 13", "March 14", "April 17"]
 
 date = input("Please enter the number of which ROHP night you are matching for:\n \
-0: February 22\n \
-1: March 8\n \
-2: March 9\n \
-3: March 15\n \
-4: March 16\n \
-5: April 12\n")
+0: February 21\n \
+1: March 6\n \
+2: March 7\n \
+3: March 13\n \
+4: March 14\n \
+5: April 17\n")
 
 subject = "UPDATE: ROHP " + dates[int(date)] + " Host Guest Re-Matching"
 
@@ -55,17 +56,14 @@ with open(filename, "r") as csvfile:
 
 
 		body = "Hello, \n\n\
-		Due to some logistical hiccups, you've been reassigned to a new host/guest. Please ignore your previous assignment. Below, you can find each other’s contact information. \n \
-		\n\n \
-		Previous assignment that is no longer valid: \n \
-		" + guest["name"] + ", " + guest["email"] + ", " + guest["phone"] + "\n" \
+		Due to some logistical hiccups, you've been reassigned to a new host."+ guest["name"] +", please ignore your previous assignment if you received one. Below, you can find each other’s contact information. \n \
+		Previous assignment that is no longer valid: \n" + guest["name"] + ", " + guest["email"] + ", " + guest["phone"] + "\n" \
 		+ old_host["name"] + ", " + old_host["email"] + ", " + old_host["phone"] + "\n" \
-		+ "\n\n \
+		+ "\n" + old_host["name"]+ ", this reassignment does not affect your other assignment \n\n \s \
 		NEW assignment: \n \
 		" + guest["name"] + ", " + guest["email"] + ", " + guest["phone"] + "\n" \
-		+ new_host["name"] + ", " + new_host["email"] + ", " + new_host["phone"] + "\n\n" \
-		"We apologize for any confusion that is caused by this, so feel free to email us at contact@rohp.berkeley.edu if you have any questions." \
-		+ "\n\n"
+		+ new_host["name"] + ", " + new_host["email"] + ", " + new_host["phone"] + "\n\n \
+		We apologize for any confusion that this may have caused, so feel free to email us at contact@rohp.berkeley.edu if you have any questions."+new_host["name"]+" if you have any other assignments, those are still valid. \n\n \ "
 
 		html = "<span style=\"background-color:rgb(0,0,0)\"> \
 				<b>\
@@ -81,12 +79,12 @@ with open(filename, "r") as csvfile:
 				</b> \
 				</span>"
 
-		signoff = "ROHP Committee 2019"
+		signoff = "ROHP Committee 2020"
 
 		print("Guest: " + guest["name"] + ", Old: " + old_host["name"] + ", New: " + new_host["name"])
 
 		yag.send(
 		    to=receiver,
 		    subject=subject,
-		    contents=[body, html, signoff, dates[int(date)] + " ROHP Schedule.pdf", "Important Resources.zip"]
-		) 
+		    contents=[body, html, signoff]
+		)
