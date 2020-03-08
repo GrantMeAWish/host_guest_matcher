@@ -56,14 +56,14 @@ with open(filename, "r") as csvfile:
 
 
 		body = "Hello, \n\n\
-		Due to some logistical hiccups, you've been reassigned to a new host."+ guest["name"] +", please ignore your previous assignment if you received one. Below, you can find each other’s contact information. \n \
+		Due to some logistical hiccups, you've been reassigned to a new host. "+ guest["name"] +", please ignore your previous assignment if you received one. Below, you can find each other’s contact information. \n \n \
 		Previous assignment that is no longer valid: \n" + guest["name"] + ", " + guest["email"] + ", " + guest["phone"] + "\n" \
 		+ old_host["name"] + ", " + old_host["email"] + ", " + old_host["phone"] + "\n" \
-		+ "\n" + old_host["name"]+ ", this reassignment does not affect your other assignment \n\n \s \
+		+ "\n" + old_host["name"]+ ", this reassignment does not affect your other assignment. \n\n \
 		NEW assignment: \n \
 		" + guest["name"] + ", " + guest["email"] + ", " + guest["phone"] + "\n" \
 		+ new_host["name"] + ", " + new_host["email"] + ", " + new_host["phone"] + "\n\n \
-		We apologize for any confusion that this may have caused, so feel free to email us at contact@rohp.berkeley.edu if you have any questions."+new_host["name"]+" if you have any other assignments, those are still valid. \n\n \ "
+		We apologize for any confusion that this may have caused, so feel free to email us at contact@rohp.berkeley.edu if you have any questions. "+new_host["name"]+" if you have any other assignments, those are still valid. \n\n"
 
 		html = "<span style=\"background-color:rgb(0,0,0)\"> \
 				<b>\
